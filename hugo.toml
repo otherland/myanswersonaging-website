@@ -3,7 +3,7 @@ languageCode = "en-uk"
 title = "My Answers On Aging"
 paginate = "10"
 theme = "mainroad"
-googleAnalytics = ""
+googleAnalytics = "G-1WFZ1YLFT4"
 
 [Author]
 name = "Angela Murray"
