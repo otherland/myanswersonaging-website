@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://myanswersonaging.org/"
 languageCode = "en-uk"
 title = "My Answers On Aging"
 paginate = "10"
@@ -6,13 +6,13 @@ theme = "mainroad"
 googleAnalytics = ""
 
 [Author]
-name = "Zedd Roberts"
-bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+name = "Angela Murray"
+bio = "Angela Murray, a devoted advocate for aging well, imparts her profound insights through compelling articles on myanswersonaging.org. With a keen understanding of the aging process, Angela gracefully guides readers on a journey of embracing wisdom and vitality. Her articles bridge generational gaps, offering practical advice, inspirational narratives, and a fresh perspective on aging gracefully. Through her commitment to continuous learning and distillation of complex research, Angela has become a trusted source, empowering individuals to navigate the path of aging with resilience and a renewed sense of purpose."
 avatar = "img/avatar.png"
 
 [Params]
-description = "My Answers On Aging"
-copyright = "Zedd Roberts"
+description = "Embracing Wisdom, Embodying Vitality"
+copyright = "Angela Murray - My Answers On Aging"
 opengraph = true
 schema = true
 twitter_cards = true
@@ -21,17 +21,32 @@ authorbox = true
 toc = true
 pager = true
 post_meta = [ "author", "date", "categories", "translations",]
-mainSections = [ "posts", "blog", "news",]
+mainSections = [ "posts", "blog", "news"]
 dateformat = "2006-01-02"
 googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"
+customCSS = ["css/custom.css"]
+highlightColor = "#4682B4" # Override highlight color
 
 [Params.logo]
-image = "img/placeholder.png"
-title = "Alexander Mastery"
-subtitle = "Reach Your Dreams"
+title = "My Answers On Aging"
+subtitle = "Embracing Wisdom, Embodying Vitality"
 
 [Params.sidebar]
 home = "right"
 list = "left"
 single = "right"
 widgets = [ "search", "recent", "categories", "taglist", "social", "languages",]
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/about-us/"
+
+[[menu.main]]
+  name = "Health"
+  url = "/categories/health/"

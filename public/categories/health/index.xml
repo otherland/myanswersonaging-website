@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Answers On Aging</title>
-    <link>https://myanswersonaging.org/</link>
-    <description>Recent content on My Answers On Aging</description>
+    <title>Health on My Answers On Aging</title>
+    <link>https://myanswersonaging.org/categories/health/</link>
+    <description>Recent content in Health on My Answers On Aging</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://myanswersonaging.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://myanswersonaging.org/categories/health/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Us</title>
       <link>https://myanswersonaging.org/about-us/</link>
